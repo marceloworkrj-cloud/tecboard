@@ -1,0 +1,155 @@
+/* reset css */
+
+* {
+     margin: 0;
+     padding: 0;
+}
+       
+@font-face {
+     font-family: "Unbounded";
+     src: url(../font/Unbounded-Bold.ttf);
+     font-weight: 700;
+     
+}    
+
+@font-face {
+font-family: "Poppins";
+     src: url(../font/Poppins-Regular.ttf);
+     font-weight: 400;
+}
+  
+@font-face {
+     font-family: "Poppins";
+     src: url(../font/Poppins-Semibold.ttf);
+     font-weight: 600;
+
+}
+
+body {
+     background-color: #0E1014;
+     color: #FFFFFF;
+}
+
+h1 {
+     font-family: "Unbounded", sans-serif; 
+     font-size: 64px;
+     font-weight: bold;
+     text-align: center;
+} 
+
+h1 span {
+     color:#9747FF
+}
+
+p {
+font-family: "Poppins"; 
+font-size: 24px;
+text-align: center;
+margin: 24px auto;
+}
+
+a {
+     background-color: #9747FF;
+     display: block;
+     width: 340px;
+     height: 66px;
+     text-align: center;
+     margin: 40px auto;
+     text-decoration: none;
+     color:#FFFFFF;
+
+     line-height: 64px;
+     border-radius: 100px;
+}
+
+a:hover {
+background-color: #8233E8;
+transition: 0.5 ;     
+}
+
+section img {
+     display: block;
+     height: 446px;
+     width: 792px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+header img {
+     display: block;
+     margin: 75px 0 0 360px ;
+}
+
+.fundo-escuro {
+     background-color: #0E1014;
+     color: #FFFFFF;
+}
+
+
+/* Layout do tablet */
+@media(max-width: 768px) {
+     header img {
+          
+          margin: 65px 0 0 60px;
+     }
+     
+h1 {
+     
+     margin: 72px auto 0 auto;
+     width: 648px; 
+
+}
+
+p {
+   
+     margin: 24px auto 0 auto;
+     width: 648px;
+
+}
+
+a {
+    margin: 40px auto 0 auto;
+}
+
+section img {
+     width: 659px;
+     height: 446px;
+     margin: 0 auto;
+}
+}
+
+
+/* layout do mobile */
+@media(max-width: 375px) {
+
+
+
+header img {
+     margin: 32px 0 0 16px;
+}
+
+h1 {
+     margin: 60px auto 0 auto;
+}
+
+p {
+     margin: 24px auto 0 auto;
+     width: 341px;
+     font-size: 20px;
+}
+
+a {
+     
+     margin: 40px auto 0 auto;
+     width: 251px;
+     font-size: 20px;
+}
+
+section img {
+     margin: 40px auto 0 auto;
+     width: 341px;
+     height: 230px;
+}
+
+
+}
